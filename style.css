@@ -1,0 +1,78 @@
+h1 {
+    color: rgb(0, 0, 0);
+    height: 50px;
+    
+}
+
+table,th,td {
+              border: 1px solid black;
+              border-collapse: separate;
+              text-align: center;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    border:1px solid black;
+    width: 100%;
+    background:rgb(255, 255, 255);
+}
+
+#name {
+
+    width: 100%;
+    text-align: center;
+
+}
+
+.quotePanel {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    
+    height: 100px;
+    margin-right: 5px;
+}
+
+#img{
+  
+    background-color: salmon;
+    justify-content: center;
+    display: flex;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 100%;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    text-align: center;
+}
+
+.table1 {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    
+
+}
+
+#mainPanel {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-color: skyblue;
+    width:800px;
+    height: 100%;
+    
+}
+#navigation{
+    border-radius: 10px;
+    width: 75%;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
